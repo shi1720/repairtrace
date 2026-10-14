@@ -32,7 +32,7 @@ The default run uses the frozen metadata and does not contact iFixit. `src/colle
 - `figures/`: vector figures generated from these results.
 - `data/`: source metadata and attribution.
 
-The manuscript is kept outside the public Git history pending author and venue review. The repository is a research artifact, not a claim of acceptance or peer review.
+The manuscript is kept outside the public Git history during conference review. Its abstract was submitted to ICDF 2027, Track 3 (Sustainability & Community Development), as submission 136 on 14 October 2026. The conference requests a full paper only after abstract acceptance. This repository is a research artifact, not a claim of acceptance or peer review.
 
 ## Reproduced findings
 
