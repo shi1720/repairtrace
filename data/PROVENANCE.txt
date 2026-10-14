@@ -1,0 +1,1 @@
+Source: iFixit API 2.0. Retrieved 2026-10-14. Metadata only. CC BY-NC-SA 3.0; https://www.ifixit.com/api-docs. No LLM training. Product names identify sources; no affiliation.

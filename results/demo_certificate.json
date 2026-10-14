@@ -1,0 +1,71 @@
+{
+  "primitive_edges": [
+    [
+      "a",
+      "b"
+    ],
+    [
+      "a",
+      "c"
+    ],
+    [
+      "b",
+      "t"
+    ],
+    [
+      "c",
+      "t"
+    ],
+    [
+      "d",
+      "t"
+    ]
+  ],
+  "efforts": {
+    "a": 100,
+    "b": 1,
+    "t": 1,
+    "c": 1,
+    "d": 1
+  },
+  "editable_edges": [
+    [
+      "a",
+      "b"
+    ],
+    [
+      "a",
+      "c"
+    ],
+    [
+      "d",
+      "t"
+    ]
+  ],
+  "budget": 2,
+  "target": "t",
+  "selected": [
+    [
+      "a",
+      "b"
+    ],
+    [
+      "a",
+      "c"
+    ]
+  ],
+  "before": 104.0,
+  "after": 4.0,
+  "required_after": [
+    "b",
+    "t",
+    "c",
+    "d"
+  ],
+  "solver": {
+    "seconds": 0.0027682079999999942,
+    "gap": 0.0,
+    "bound": 4.0
+  },
+  "scope": "Additive conjunctive access model; edit feasibility supplied externally."
+}

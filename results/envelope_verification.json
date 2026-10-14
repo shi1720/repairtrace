@@ -1,0 +1,6 @@
+{
+  "ordered_DAGs": 1024,
+  "reachability_classes": 357,
+  "class_edit_assignments": 3382,
+  "target_bound_checks": 54405
+}

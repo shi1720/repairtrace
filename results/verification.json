@@ -1,0 +1,6 @@
+{
+  "all_five_node_ordered_DAGs": 1024,
+  "deletion_assignments": 17664,
+  "pair_checks": 441600,
+  "milp_exhaustive_matches": 80
+}

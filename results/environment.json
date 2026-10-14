@@ -1,0 +1,6 @@
+{
+  "python": "3.9.6",
+  "numpy": "2.0.2",
+  "networkx": "3.2.1",
+  "platform": "macOS-27.0.1-arm64-arm-64bit"
+}

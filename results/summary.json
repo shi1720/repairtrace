@@ -1,0 +1,222 @@
+{
+  "greedy": {
+    "worse_count": 12,
+    "median_baseline_pct": 0.0,
+    "max_baseline_pct": 8.914728682170542,
+    "median_positive_pct": 1.9337606837606838
+  },
+  "closure_actual": {
+    "worse_count": 113,
+    "median_baseline_pct": 1.8101254716153372,
+    "max_baseline_pct": 39.62264150943396,
+    "median_positive_pct": 5.555555555555555
+  },
+  "reduction_actual": {
+    "worse_count": 62,
+    "median_baseline_pct": 0.0,
+    "max_baseline_pct": 20.37037037037037,
+    "median_positive_pct": 3.617149758454106
+  },
+  "closure_prediction": {
+    "mismatch_count": 95,
+    "median_error_pct": 1.386723364044413,
+    "max_absolute_pct": 43.58974358974359
+  },
+  "reduction_prediction": {
+    "mismatch_count": 119,
+    "median_error_pct": -3.886427708417237,
+    "max_absolute_pct": 69.76744186046511
+  },
+  "optimal_savings": {
+    "median_pct": 15.47594885325756
+  },
+  "public": [
+    {
+      "device": "Steam_Deck",
+      "nodes": 33,
+      "targets": 26,
+      "raw_edges": 118,
+      "reduced_edges": 34,
+      "candidates": 12,
+      "base": 23.53846153846154,
+      "raw_opt": 23.23076923076923,
+      "reduced_opt": 17.384615384615387,
+      "raw_of_reduced": 23.23076923076923,
+      "reduced_of_raw": 18.615384615384617,
+      "raw_selection": [
+        [
+          148893,
+          148894
+        ],
+        [
+          148894,
+          148899
+        ]
+      ],
+      "reduced_selection": [
+        [
+          148899,
+          148931
+        ],
+        [
+          148900,
+          148943
+        ]
+      ],
+      "zero_own_steps": 0
+    },
+    {
+      "device": "Fairphone_4",
+      "nodes": 8,
+      "targets": 8,
+      "raw_edges": 16,
+      "reduced_edges": 7,
+      "candidates": 7,
+      "base": 10.375,
+      "raw_opt": 8.625,
+      "reduced_opt": 5.875,
+      "raw_of_reduced": 9.0,
+      "reduced_of_raw": 7.375,
+      "raw_selection": [
+        [
+          152918,
+          152938
+        ],
+        [
+          152918,
+          152939
+        ]
+      ],
+      "reduced_selection": [
+        [
+          152781,
+          152861
+        ],
+        [
+          152918,
+          152938
+        ]
+      ],
+      "zero_own_steps": 0
+    },
+    {
+      "device": "iPhone_13",
+      "nodes": 16,
+      "targets": 12,
+      "raw_edges": 35,
+      "reduced_edges": 16,
+      "candidates": 12,
+      "base": 19.25,
+      "raw_opt": 18.25,
+      "reduced_opt": 10.25,
+      "raw_of_reduced": 18.75,
+      "reduced_of_raw": 17.25,
+      "raw_selection": [
+        [
+          156984,
+          146277
+        ],
+        [
+          156984,
+          146281
+        ]
+      ],
+      "reduced_selection": [
+        [
+          146252,
+          146270
+        ],
+        [
+          156984,
+          146277
+        ]
+      ],
+      "zero_own_steps": 3
+    },
+    {
+      "device": "Nintendo_Switch",
+      "nodes": 40,
+      "targets": 38,
+      "raw_edges": 117,
+      "reduced_edges": 24,
+      "candidates": 12,
+      "base": 21.763157894736842,
+      "raw_opt": 20.973684210526315,
+      "reduced_opt": 12.947368421052632,
+      "raw_of_reduced": 21.289473684210527,
+      "reduced_of_raw": 16.94736842105263,
+      "raw_selection": [
+        [
+          113113,
+          113058
+        ],
+        [
+          113292,
+          148737
+        ]
+      ],
+      "reduced_selection": [
+        [
+          113032,
+          113213
+        ],
+        [
+          113292,
+          148737
+        ]
+      ],
+      "zero_own_steps": 1
+    },
+    {
+      "device": "Dyson_V6_Motorhead",
+      "nodes": 5,
+      "targets": 5,
+      "raw_edges": 3,
+      "reduced_edges": 3,
+      "candidates": 3,
+      "base": 5.4,
+      "raw_opt": 3.8000000000000003,
+      "reduced_opt": 3.8000000000000003,
+      "raw_of_reduced": 3.8,
+      "reduced_of_raw": 3.8,
+      "raw_selection": [
+        [
+          76772,
+          76773
+        ],
+        [
+          76776,
+          76775
+        ]
+      ],
+      "reduced_selection": [
+        [
+          76772,
+          76773
+        ],
+        [
+          76776,
+          76775
+        ]
+      ],
+      "zero_own_steps": 0
+    }
+  ],
+  "scaling": {
+    "24": {
+      "median_seconds": 0.0006236039999993892,
+      "max_seconds": 0.0010594160000003683,
+      "max_gap": 0.0
+    },
+    "48": {
+      "median_seconds": 0.0014289584999982452,
+      "max_seconds": 0.002643583000001115,
+      "max_gap": 1.6057462955030513e-16
+    },
+    "96": {
+      "median_seconds": 0.00271850000000029,
+      "max_seconds": 0.002994208000000498,
+      "max_gap": 0.0
+    }
+  }
+}
