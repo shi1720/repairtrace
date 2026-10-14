@@ -75,3 +75,24 @@ def eval_provenance(compiled,removed=()):
   else:v=any(values[i] for i in args)
   values.append(v)
  return {pair:values[i] for pair,i in ref.items()}
+
+def export_provenance(g,weights,targets,candidates):
+ """Portable IR: visible graphs are presentation-only; primitive identities persist."""
+ edges,gates,refs=compile_provenance(g)
+ return {'version':1,'nodes':list(g),'primitive_edges':[list(e) for e in edges],
+         'efforts':[[v,weights[v]] for v in g], 'targets':list(targets),
+         'editable_edges':[list(e) for e in candidates],
+         'gates':[[kind,list(args)] for kind,args in gates],
+         'pair_outputs':[[u,t,i] for (u,t),i in refs.items()]}
+
+def evaluate_export(obj,removed=()):
+ """Evaluate a JSON-round-tripped circuit without the primitive graph library."""
+ disabled={tuple(e) for e in removed};kept=[tuple(e) not in disabled for e in obj['primitive_edges']];values=[]
+ for kind,args in obj['gates']:
+  if kind=='const':v=args[0]
+  elif kind=='edge':v=kept[args[0]]
+  elif kind=='and':v=all(values[i] for i in args)
+  elif kind=='or':v=any(values[i] for i in args)
+  else:raise ValueError('Unknown gate '+kind)
+  values.append(v)
+ return {(u,t):values[i] for u,t,i in obj['pair_outputs']}
